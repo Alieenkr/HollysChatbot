@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Gallery by Javascript</title>
+
+	<script src="./image_change.js"></script>
+	<link rel="stylesheet" type="text/css" href="./theme.css">
+</head>
+
+<body>
+	<h1> 이미지 갤러리 실습 예제 </h1>
+
+	<p id="image_number">1번째 이미지 </p>
+
+
+	<img id="output" src="./images/img1.png" >
+	<img class="image" src="./images/img1.png" >
+	<img class="image" src="./images/img2.png" >
+	<img class="image" src="./images/img3.png" >
+	<img class="image" src="./images/img4.png" >
+	<img class="image" src="./images/img5.png" >
+
+	<p>
+		<input type="button" class="button" value="이전" onclick="prev()">
+		<input type="button" class="button" value="다음" onclick="next()">
+  </p>
+
+</body>
+
+</html>
